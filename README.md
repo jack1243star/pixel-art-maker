@@ -1,7 +1,7 @@
 Pixel Art Maker
 ===============
 
-Pixel Art Maker is a simple 16x16 pixel art editor which outputs the
+Pixel Art Maker is a simple pixel art editor which outputs the
 binary representation of the canvas to clipboard.
 
 Pixel Art Maker is developed using the [LÖVE framework]
@@ -64,6 +64,7 @@ How to Use
 - Press `tab` key to switch between editing prefix or suffix.
 - Macros listed on screen will be expanded in the output.
 - Press `enter` or `return` key to copy output to clipboard.
+- Press right control key to toggle between 16x16 and 64x64 mode.
 
 Support
 -------
