@@ -15,8 +15,9 @@
 
 function love.conf(t)
    t.window.title = "Pixel Art Maker"
-   t.window.width = 320;
-   t.window.height = 240;
+   t.window.width = 480
+   t.window.height = 320
+   t.window.resizable = true
 
    t.modules.audio = false
    t.modules.event = true
