@@ -83,6 +83,17 @@ function love.update(dt)
    if messageTime < 1 then
       messageTime = messageTime + dt
    end
+   -- Draw while mouse down
+   x, y = love.mouse.getPosition()
+   if x < CanvasScale*currentCanvas.width and y < CanvasScale*currentCanvas.height then
+      local gridX = math.floor(x/CanvasScale) + 1
+      local gridY = math.floor(y/CanvasScale) + 1
+      if currentMode == "draw" then
+         currentCanvas.canvas[gridY][gridX] = 1
+      elseif currentMode == "erase" then
+         currentCanvas.canvas[gridY][gridX] = 0
+      end
+   end
 end
 
 function love.draw()
@@ -123,11 +134,18 @@ function love.mousepressed(x, y, button)
       local gridY = math.floor(y/CanvasScale) + 1
       -- Calculate the tile to flip
       if currentCanvas.canvas[gridY][gridX] == 0 then
+         currentMode = "draw"
          currentCanvas.canvas[gridY][gridX] = 1
       else
+         currentMode = "erase"
          currentCanvas.canvas[gridY][gridX] = 0
       end
    end
+end
+
+function love.mousereleased(x, y, button)
+   -- End a stroke
+   currentMode = nil
 end
 
 function love.keypressed(key)
