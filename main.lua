@@ -18,7 +18,7 @@ local instructions = [[
 Press return key to copy to clipboard.
 Type in the text you want to insert.
 Press tab key to toggle between prefix and suffix.
-Press right control key to toggle between 16x16 and 64x64 mode.
+Press control key to toggle between 16x16 and 64x64 mode.
 
 Text macros available:
    %line%   %line-1%
