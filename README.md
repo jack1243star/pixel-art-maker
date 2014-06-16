@@ -64,7 +64,7 @@ How to Use
 - Press `tab` key to switch between editing prefix or suffix.
 - Macros listed on screen will be expanded in the output.
 - Press `enter` or `return` key to copy output to clipboard.
-- Press right control key to toggle between 16x16 and 64x64 mode.
+- Press `control` key to toggle between 16x16 and 64x64 mode.
 
 Support
 -------

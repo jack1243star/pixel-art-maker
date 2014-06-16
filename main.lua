@@ -188,7 +188,7 @@ function love.keypressed(key)
          prefixDesc = "Prefix:\n"
          suffixDesc = "Suffix: (Editing)\n"
       end
-   elseif key == "rctrl" then
+   elseif key == "rctrl" or key == "lctrl" then
       -- Toggle current Canvas
       if currentCanvas == canvas1 then
          currentCanvas = canvas2
