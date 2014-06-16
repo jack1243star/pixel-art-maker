@@ -19,7 +19,7 @@ Showcase
 Screenshot:
 
 ![Pixel Art Maker Screenshot]
-(http://m101.nthu.edu.tw/~s101062116/PixelArtMaker/screenshot.png)
+(http://m101.nthu.edu.tw/~s101062116/v1.0/PixelArtMaker/screenshot.png)
 
 Output:
 
@@ -49,7 +49,7 @@ Download the [binary]
 (http://m101.nthu.edu.tw/~s101062116/PixelArtMaker/PixelArtMaker.zip),
 extract and execute `PixelArtMaker.exe`.
 
-###OSX and other UNIX-like system
+###OSX and other UNIX-like systems
 
 Download [`PixelArtMaker.love`]
 (http://m101.nthu.edu.tw/~s101062116/PixelArtMaker/PixelArtMaker.love)
