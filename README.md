@@ -19,7 +19,7 @@ Showcase
 Screenshot:
 
 ![Pixel Art Maker Screenshot]
-(http://m101.nthu.edu.tw/~s101062116/v1.0/PixelArtMaker/screenshot.png)
+(http://m101.nthu.edu.tw/~s101062116/PixelArtMaker/v1.0/screenshot.png)
 
 Output:
 
