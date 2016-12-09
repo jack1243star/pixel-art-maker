@@ -54,7 +54,7 @@ extract and execute `PixelArtMaker.exe`.
 Download [`PixelArtMaker.love`]
 (http://m101.nthu.edu.tw/~s101062116/PixelArtMaker/PixelArtMaker.love)
 and follow the instructions at [LÖVE's Wiki]
-(https://www.love2d.org/wiki/Game_Distribution).
+(https://www.love2d.org/wiki/Game\_Distribution).
 
 How to Use
 ----------
